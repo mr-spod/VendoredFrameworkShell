@@ -1,0 +1,6 @@
+framework module VendoredFrameworkShell {
+  umbrella header "VendoredFrameworkShell-umbrella.h"
+
+  export *
+  module * { export * }
+}
