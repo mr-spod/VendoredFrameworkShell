@@ -1,0 +1,6 @@
+framework module drCharts {
+  umbrella header "drCharts.h"
+
+  export *
+  module * { export * }
+}
