@@ -20,7 +20,6 @@ Pod::Spec.new do |s|
   s.swift_version = '4.1'
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'VendoredFrameworkShell/Classes/**/*'
  
   s.vendored_framework = 'drCharts.framework' 
   # s.dependency 'AFNetworking', '~> 2.3'
