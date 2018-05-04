@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VendoredFrameworkShell'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Made this to test pulling in a pod that uses this pod'
   s.description      = 'Pod containing nothing other than a vendored framework'
 
