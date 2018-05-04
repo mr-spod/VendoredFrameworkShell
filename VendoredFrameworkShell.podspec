@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'VendoredFrameworkShell'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of VendoredFrameworkShell.'
+  s.summary          = 'Made this to test pulling in a pod that uses this pod'
   s.description      = 'Pod containing nothing other than a vendored framework'
 
   s.homepage         = 'https://github.com/mr-spod/VendoredFrameworkShell'
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.author           = { 'mr-spod' => 'sean.odonnell@duethealth.com' }
   s.source           = { :git => 'https://github.com/mr-spod/VendoredFrameworkShell.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_version = '4.1'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'VendoredFrameworkShell/Classes/**/*'
